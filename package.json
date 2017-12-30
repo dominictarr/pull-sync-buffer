@@ -1,0 +1,20 @@
+{
+  "name": "pull-sync-buffer",
+  "description": "",
+  "version": "1.0.0",
+  "homepage": "https://github.com/dominictarr/pull-sync-buffer",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/dominictarr/pull-sync-buffer.git"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "pull-stream": "^3.6.1",
+    "tape": "^4.8.0"
+  },
+  "scripts": {
+    "test": "set -e; for t in test/*.js; do node $t; done"
+  },
+  "author": "'Dominic Tarr' <dominic.tarr@gmail.com> (dominictarr.com)",
+  "license": "MIT"
+}
